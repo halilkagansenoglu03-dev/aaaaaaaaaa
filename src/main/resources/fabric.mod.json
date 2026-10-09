@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "emptyquit",
+	"version": "${version}",
+	"name": "Empty Quit",
+	"description": "Automatically disconnects from a multiplayer server if no other entity has been around you for 10 seconds.",
+	"authors": [
+		"You"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.emptyquit.EmptyQuitClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
